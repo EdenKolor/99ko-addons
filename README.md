@@ -9,6 +9,7 @@ Tous les plugins ont été testés avec la version **4.2.1**
   * lister les thèmes installés
   * prévisualer les thèmes installés
   * installation de thèmes via fichier zip
+  * **le fichier info.json des thèmes peut maintenant contenir un champ "author" qui est utilisé par le plugin**
 
 # Plugins modifiés
 * News : ajout de l'heure dans l'horodatage des news et commentaires
