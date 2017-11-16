@@ -1,5 +1,6 @@
 # 99ko-addons
-Plugins et Thèmes développés pour le CMS 99ko (à partir de la version 4.2.1)
+
+Plugins et Thèmes développés pour le CMS 99ko
 
 Tous les plugins ont été testés avec la version **4.2.1**
 
