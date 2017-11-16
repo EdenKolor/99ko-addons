@@ -3,13 +3,9 @@ defined('ROOT') OR exit('No direct script access allowed');
 include_once(ROOT . 'admin/header.php');
 ?>
 <form enctype="multipart/form-data" method="post" action="index.php?p=customizer&action=upload" id="uploadForm">
-    <label>Installer un thème: <input type="file" name="zip_file"></label><input type="submit" name="submit" value="Installer">
+    <p><label>Installer un thème: <input type="file" name="zip_file"></label><input type="submit" name="submit" value="Installer"></p>
 </form>
 <br><br>
-<!--<form method="post" action="index.php?p=customizer&action=create" id="createForm">
-    <label>Créer un thème: <input type="text" name="theme_name"></label><input type="submit" name="submit" value="Créer">
-</form>
-<br><br>-->
 <form method="post" action="index.php?p=customizer&action=change" id="customizerForm">
     <?php show::adminTokenField(); ?>
     <table>
@@ -26,7 +22,7 @@ include_once(ROOT . 'admin/header.php');
             <?php foreach ($core->getThemes() as $name => $info) { ?>
                 <tr>
                     <td>
-                        <strong><?php echo $name; ?></strong>
+                        <strong><?php echo $info['name']; ?></strong>
                     </td>
                     <td>
                         <?php echo isset($info['author']) ? $info['author'] : 'NC'; ?>
