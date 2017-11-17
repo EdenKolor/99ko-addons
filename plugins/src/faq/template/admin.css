@@ -1,0 +1,14 @@
+.faq-admin td .description{
+    opacity: 0;
+    clear: both;
+    margin-top: 10px;
+}
+
+.faq-admin td:hover .description{
+    opacity: 1;
+}
+
+.faq-admin tr > td:not(:first-of-type), .faq-admin tr > th:not(:first-of-type) {
+    text-align: center;
+    width: 50px;
+}
