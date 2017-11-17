@@ -6,8 +6,8 @@ Tous les plugins ont été testés avec la version **4.2.1**
 
 # En cours de développement
 * **Faq** : plugin permettant de gérer les question/réponse d'une faq
- * gestion côté admin terminée
- * affichage côté front en cours
+  * gestion côté admin terminée
+  * affichage côté front en cours
 
 # Nouveaux plugins
 * **Customizer** : plugin permettant la gestion des thèmes via l'interface admin.
